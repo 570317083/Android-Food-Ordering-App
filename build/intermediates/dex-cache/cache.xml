@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="F:\FoodOrderingApplication\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.0"
+        sha1="c323c36ecc68965c4cfb460f7721113d2b61ed03">
+        <dex dex="F:\FoodOrderingApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_626845b4e7d1b118e99f97eaaed4c6ad97d35f55\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\FoodOrderingApplication\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.0"
+        sha1="ff9e057766231009406eccfbf937f246c46c466d">
+        <dex dex="F:\FoodOrderingApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_245404d9dc1435f74d0f47e16c7f7e4a98840361\classes.dex" />
+    </item>
+
+</items>
