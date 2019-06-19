@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.naman.foodorderingapplication.Help"
+    android:background="#E6E6FA">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Customer Care Number:  1800 524012\n \n To Contact to Perticular Cafe:"
+        android:textSize="20dp"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"
+        android:textColor="#211111"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" android:text=" Buddy cafe                        93012 05200"
+    android:textSize="20dp"
+    android:layout_marginTop="110dp"
+    android:textStyle="bold"
+    android:textColor="@color/colorPrimaryDark"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Yolo cafe                            7314009123"
+        android:textSize="20dp"
+        android:layout_marginTop="140dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Mocha cafe                       9009058658"
+        android:textSize="20dp"
+        android:layout_marginTop="170dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" O2 cafe                              9669007100"
+        android:textSize="20dp"
+        android:layout_marginTop="200dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" CCD cafe                            9300069389"
+        android:textSize="20dp"
+        android:layout_marginTop="230dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Feal Free To Contact Us."
+        android:textSize="20dp"
+        android:layout_marginTop="260dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn"
+        android:text="More Help"
+        android:layout_marginTop="320dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimaryDark"/>
+
+
+</RelativeLayout>

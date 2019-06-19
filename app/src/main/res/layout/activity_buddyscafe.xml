@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0E8">
+
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+        <ImageView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/sniip"/>
+        <TableRow android:paddingTop="5dp" >
+
+            <TextView
+                android:text="Items"
+                android:gravity="center"
+                android:height="30dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+
+                />
+            <TextView
+                android:text="Price"
+                android:gravity="center"
+                android:height="30dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                />
+            <TextView
+                android:text="Quantity"
+
+                android:gravity="center"
+                android:height="30dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                />
+            <TextView
+                android:text="Total"
+                android:gravity="center"
+                android:width="60dp"
+                android:height="30dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+
+                android:paddingLeft="20dp"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+            <android.support.v7.widget.AppCompatCheckBox
+                android:text="Cold Coffee"
+                android:id="@+id/coffee_checkbox"
+                android:textSize="16dp"
+                android:onClick="onCheckboxClicked"
+                android:width="150dp"
+                android:height="40dp"
+                android:padding="3dip"
+                android:textStyle="bold"
+                android:layout_marginLeft="8dp"
+                android:textColor="@color/grey"/>
+            <TextView
+                android:id="@+id/coffee_price"
+                android:text="70"
+                android:gravity="center"
+                android:height="40dp"
+                android:textSize="16dp"
+                android:textStyle="bold"
+
+                />
+            <android.support.v7.widget.FitWindowsLinearLayout
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/cbuttondec"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:onClick="cdecrement"
+                    android:text="-"
+                    android:enabled="false"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:id="@+id/cquantity_text_view"
+                    android:layout_width="30dp"
+                    android:height="40dp"
+                    android:gravity="center"
+                    android:paddingLeft="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="#808080"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    />
+                <Button
+                    android:id="@+id/cbuttoninc"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="16dp"
+                    android:onClick="cincrement"
+                    android:text="+"
+                    android:enabled="false"
+                    android:textStyle="bold"
+                    />
+            </android.support.v7.widget.FitWindowsLinearLayout>
+
+            <TextView
+                android:id="@+id/ctotal"
+                android:text="0"
+                android:gravity="right"
+                android:width="60dp"
+                android:height="40dp"
+                android:textSize="16dp"
+                android:paddingLeft="20dp"
+                android:padding="3dip"
+                android:layout_marginRight="30dp"
+
+                android:textStyle="bold"/>
+        </TableRow>
+
+        <TableRow>
+            <android.support.v7.widget.AppCompatCheckBox
+                android:text="IceCream"
+                android:id="@+id/icecream_checkbox"
+                android:onClick="onCheckboxClicked"
+                android:textSize="16dp"
+                android:width="150dp"
+                android:height="40dp"
+                android:padding="3dip"
+                android:textStyle="bold"
+                android:layout_marginLeft="8dp"
+            android:textColor="@color/grey"
+                />
+            <TextView
+                android:id="@+id/icecream_price"
+                android:text="50"
+                android:gravity="center"
+                android:height="40dp"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                />
+            <android.support.v7.widget.FitWindowsLinearLayout
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/ibuttondec"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:onClick="idecrement"
+                    android:text="-"
+                    android:enabled="false"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:id="@+id/iquantity_text_view"
+                    android:layout_width="30dp"
+                    android:height="40dp"
+                    android:gravity="center"
+                    android:paddingLeft="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+                <Button
+                    android:id="@+id/ibuttoninc"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="16dp"
+                    android:onClick="iincrement"
+                    android:enabled="false"
+                    android:text="+"
+                    android:textStyle="bold"/>
+            </android.support.v7.widget.FitWindowsLinearLayout>
+
+            <TextView
+                android:id="@+id/itotal"
+                android:text="0"
+                android:gravity="right"
+                android:width="60dp"
+                android:height="40dp"
+                android:textSize="16dp"
+                android:paddingLeft="20dp"
+                android:padding="3dip"
+                android:textStyle="bold"
+                android:layout_marginRight="30dp" />
+        </TableRow>
+
+
+
+
+
+
+
+
+
+
+
+        <TableRow android:layout_height="match_parent"></TableRow> <TableRow android:layout_height="match_parent"></TableRow>
+
+        <TableRow android:layout_width="fill_parent"  android:layout_height="match_parent"
+            android:background="#F0F0E8"  >
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:width="60dp"
+                android:height="40dp"
+                android:padding="3dip"
+                android:text="Total Amount"
+                android:textSize="16dp"
+                android:textStyle="bold"/>
+            <TextView />
+            <TextView />
+            <TextView
+                android:id="@+id/total"
+                android:text="0"
+                android:width="60dp"
+                android:height="40dp"
+                android:gravity="right"
+                android:layout_marginLeft="20dp"
+                android:textSize="16dp"
+                android:padding="3dip"
+                android:textStyle="bold"
+                android:layout_marginRight="30dp"
+
+                />
+        </TableRow>
+
+        <TableRow android:layout_width="match_parent"  android:layout_height="match_parent"
+            >
+            <Button
+                android:id="@+id/button"
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+               android:layout_marginLeft="5dp"
+
+                android:onClick="submitOrder"
+                android:text="Order"
+
+
+                android:background="@drawable/capsulebutton1"/>
+        </TableRow>
+    </TableLayout>
+</android.support.v4.widget.NestedScrollView>

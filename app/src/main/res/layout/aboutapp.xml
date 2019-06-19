@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pista">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/about1"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:layout_marginRight="200dp"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="-80dp"
+        android:text="About App"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="20dp"
+        android:paddingTop="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+    <!--
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="180dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/about"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+    -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/aboutapp"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/colorAccent"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/content1"
+        android:textSize="15dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:textStyle="normal"
+        android:textColor="@color/colorPrimary"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/content2"
+        android:textSize="15dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:textStyle="normal"
+        android:textColor="@color/colorPrimary"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/content3"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="15dp"
+        android:textStyle="normal"
+        android:textColor="@color/colorPrimary"/>
+
+
+
+
+
+
+
+
+</LinearLayout>

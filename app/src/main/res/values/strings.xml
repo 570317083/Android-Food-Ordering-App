@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FoodOrderingApplication</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="aboutapp">"“Food is for eating, and good food is to be enjoyed… I think food is, actually, very beautiful in itself.” "</string>
+    <string name="content1">In this app  we are provided with a list of restaurants we can order from.</string>
+
+    <string name="content2">It uses minimum but enough information about the restaurant like the name, price  from the restaurant.</string>
+    <string name="content3">Deliver order list to the restaurant  by the customer via EMAIL </string>
+
+
+</resources>

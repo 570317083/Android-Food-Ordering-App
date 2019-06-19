@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="com.example.naman.foodorderingapplication.login">
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="130dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+
+        android:background="@drawable/snip2"
+        android:textColor="#DEB887"
+
+         />
+
+    <EditText
+        android:id="@+id/txt1"
+        android:layout_width="225dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+
+
+        android:background="#20000000"
+        android:ems="10"
+        android:textColorHint="#D2B48C"
+        android:hint="          xyz@example.com"
+        android:layout_marginTop="160dp"
+        android:inputType="textEmailAddress"
+        android:textColor="#D2B48C"
+        />
+
+    <EditText
+        android:id="@+id/txt2"
+        android:layout_width="229dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="240dp"
+        android:textColorHint="#D2B48C"
+
+        android:background="#20000000"
+        android:ems="10"
+        android:hint="       password"
+        android:inputType="textPassword"
+        android:textColor="#D2B48C"
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="375dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#D2B48C"
+
+        android:text="Register Now"
+
+
+         />
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="430dp"
+        android:text="Register"
+        android:background="@drawable/capsulebutton"/>
+
+    <Button
+        android:id="@+id/btnl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310dp"
+        android:layout_centerHorizontal="true"
+        android:text="LOGIN"
+        android:background="@drawable/capsulebutton"
+        />
+
+
+</RelativeLayout>

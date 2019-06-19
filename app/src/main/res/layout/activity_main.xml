@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="com.example.naman.foodorderingapplication.login"
+    >
+
+    <EditText
+        android:id="@+id/txtn"
+        android:layout_width="318dp"
+        android:layout_height="53dp"
+
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+
+        android:background="#20000000"
+        android:ems="10"
+        android:hint="  NAME"
+        android:inputType="textPersonName"
+        android:textColorHint="#D2B48C"
+         />
+
+    <EditText
+        android:id="@+id/txtln"
+        android:layout_width="318dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+
+        android:background="#20000000"
+        android:ems="10"
+        android:hint="  LAST NAME"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#D2B48C"
+        />
+
+    <EditText
+        android:id="@+id/txtpsw"
+        android:layout_width="318dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="220dp"
+        android:layout_centerHorizontal="true"
+
+        android:background="#20000000"
+        android:ems="10"
+        android:hint="  PASSWORD"
+        android:inputType="textPassword"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#D2B48C"
+        />
+
+    <EditText
+        android:id="@+id/txte"
+        android:layout_width="318dp"
+        android:layout_height="53dp"
+
+        android:layout_marginTop="300dp"
+        android:layout_centerHorizontal="true"
+
+        android:background="#20000000"
+        android:ems="10"
+        android:hint="  Enter Email"
+        android:inputType="textEmailAddress"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#D2B48C"
+         />
+
+    <EditText
+        android:id="@+id/txtno"
+        android:layout_width="318dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="360dp"
+        android:layout_centerHorizontal="true"
+        android:background="#20000000"
+        android:ems="10"
+        android:hint="  Enter Phone Number"
+        android:inputType="phone"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#D2B48C"
+        />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="440dp"
+
+        android:layout_marginLeft="50dp"
+
+        android:text="REGISTRATION"
+        android:background="@drawable/capsulebutton"
+        />
+
+    <Button
+        android:id="@+id/btnl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="220dp"
+
+
+
+        android:text="Login"
+        android:background="@drawable/capsulebutton"
+        />
+
+
+
+</RelativeLayout>
