@@ -1,0 +1,155 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml:2:1-39:12
+	package
+		ADDED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml:3:5-56
+		INJECTED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml
+		INJECTED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml
+		INJECTED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml
+		INJECTED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.CALL_PHONE
+ADDED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml:5:5-69
+	android:name
+		ADDED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml:5:22-66
+uses-permission#android.permission.ACTION_SEND
+ADDED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml:6:5-70
+	android:name
+		ADDED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml:6:22-67
+application
+ADDED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml:8:5-37:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\admin\.android\build-cache\8a287f89e370335cd79a69e41fc410a4dcb5163a\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\admin\.android\build-cache\0cf6ea007ca89e69c0b1b1ea02ed307f93c9a91c\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\admin\.android\build-cache\3ca0be24e062db0199b848fdaaea5e71a0efe7fd\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\admin\.android\build-cache\cb5a0a129dd6f2696e0fda8cd14033890566a165\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\admin\.android\build-cache\0c9642707ebe3a9f92338beea03faa396ee24807\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\admin\.android\build-cache\68bbb623fbe793babf574ab75655d914842066d8\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\admin\.android\build-cache\3376715569c186ec60ef119c65d6d905b4da97e5\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\admin\.android\build-cache\e356bb589326cb06c91b2c57c1b49573a124967e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\admin\.android\build-cache\727147d9d26c7db361b63525b74fd3f8fff4c66d\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\admin\.android\build-cache\e9c7c9770ee1fbc674853273d3790d6960c1d864\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\admin\.android\build-cache\55dfc1d8cd396e39f865a679859acb617480cf93\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\admin\.android\build-cache\d2c10c3f425c96d73c9b0a513af10be14b4e64eb\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml:11:9-41
+	android:supportsRtl
+		ADDED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml:13:9-35
+	android:roundIcon
+		ADDED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml:12:9-46
+	android:allowBackup
+		ADDED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml:9:9-35
+	android:icon
+		ADDED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml:10:9-41
+	android:theme
+		ADDED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml:14:9-40
+activity#com.example.naman.foodorderingapplication.SplashScreen
+ADDED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml:15:9-21:20
+	android:name
+		ADDED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml:15:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml:19:27-74
+activity#com.example.naman.foodorderingapplication.login
+ADDED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml:22:9-43
+	android:name
+		ADDED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml:22:19-40
+activity#com.example.naman.foodorderingapplication.HomeActivity
+ADDED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml:23:9-26:59
+	android:label
+		ADDED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml:25:13-56
+	android:theme
+		ADDED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml:26:13-56
+	android:name
+		ADDED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml:24:13-41
+activity#com.example.naman.foodorderingapplication.buddyscafe
+ADDED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml:27:9-48
+	android:name
+		ADDED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml:27:19-45
+activity#com.example.naman.foodorderingapplication.MainActivity
+ADDED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml:28:9-50
+	android:name
+		ADDED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml:28:19-47
+activity#com.example.naman.foodorderingapplication.LoginPage
+ADDED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml:29:9-47
+	android:name
+		ADDED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml:29:19-44
+activity#com.example.naman.foodorderingapplication.ccd
+ADDED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml:30:9-41
+	android:name
+		ADDED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml:30:19-38
+activity#com.example.naman.foodorderingapplication.mitticafe
+ADDED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml:31:9-47
+	android:name
+		ADDED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml:31:19-44
+activity#com.example.naman.foodorderingapplication.yolocafe
+ADDED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml:32:9-46
+	android:name
+		ADDED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml:32:19-43
+activity#com.example.naman.foodorderingapplication.mochacafe
+ADDED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml:33:9-47
+	android:name
+		ADDED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml:33:19-44
+activity#com.example.naman.foodorderingapplication.cafeo2
+ADDED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml:34:9-44
+	android:name
+		ADDED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml:34:19-41
+activity#com.example.naman.foodorderingapplication.ChaiKaapi
+ADDED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml:35:9-47
+	android:name
+		ADDED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml:35:19-44
+activity#com.example.naman.foodorderingapplication.BeansCafe
+ADDED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml:36:9-56
+	android:name
+		ADDED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml:36:19-44
+uses-sdk
+INJECTED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\admin\.android\build-cache\8a287f89e370335cd79a69e41fc410a4dcb5163a\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\admin\.android\build-cache\0cf6ea007ca89e69c0b1b1ea02ed307f93c9a91c\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\admin\.android\build-cache\3ca0be24e062db0199b848fdaaea5e71a0efe7fd\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\admin\.android\build-cache\cb5a0a129dd6f2696e0fda8cd14033890566a165\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\admin\.android\build-cache\0c9642707ebe3a9f92338beea03faa396ee24807\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\admin\.android\build-cache\ee792c955574f0609dcb96c7cdf677619476d930\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\admin\.android\build-cache\68bbb623fbe793babf574ab75655d914842066d8\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\admin\.android\build-cache\3376715569c186ec60ef119c65d6d905b4da97e5\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\admin\.android\build-cache\e356bb589326cb06c91b2c57c1b49573a124967e\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\admin\.android\build-cache\727147d9d26c7db361b63525b74fd3f8fff4c66d\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\admin\.android\build-cache\e9c7c9770ee1fbc674853273d3790d6960c1d864\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\admin\.android\build-cache\55dfc1d8cd396e39f865a679859acb617480cf93\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\admin\.android\build-cache\d2c10c3f425c96d73c9b0a513af10be14b4e64eb\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\admin\.android\build-cache\0cf6ea007ca89e69c0b1b1ea02ed307f93c9a91c\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml
+		INJECTED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml
+		INJECTED from F:\FoodOrderingApplication\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\admin\.android\build-cache\0cf6ea007ca89e69c0b1b1ea02ed307f93c9a91c\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\admin\.android\build-cache\3ca0be24e062db0199b848fdaaea5e71a0efe7fd\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\admin\.android\build-cache\cb5a0a129dd6f2696e0fda8cd14033890566a165\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\admin\.android\build-cache\0c9642707ebe3a9f92338beea03faa396ee24807\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\admin\.android\build-cache\ee792c955574f0609dcb96c7cdf677619476d930\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\admin\.android\build-cache\68bbb623fbe793babf574ab75655d914842066d8\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\admin\.android\build-cache\3376715569c186ec60ef119c65d6d905b4da97e5\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\admin\.android\build-cache\e356bb589326cb06c91b2c57c1b49573a124967e\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\admin\.android\build-cache\727147d9d26c7db361b63525b74fd3f8fff4c66d\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\admin\.android\build-cache\e9c7c9770ee1fbc674853273d3790d6960c1d864\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\admin\.android\build-cache\55dfc1d8cd396e39f865a679859acb617480cf93\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\admin\.android\build-cache\d2c10c3f425c96d73c9b0a513af10be14b4e64eb\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\admin\.android\build-cache\0cf6ea007ca89e69c0b1b1ea02ed307f93c9a91c\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\admin\.android\build-cache\0cf6ea007ca89e69c0b1b1ea02ed307f93c9a91c\output\AndroidManifest.xml:26:9-47
